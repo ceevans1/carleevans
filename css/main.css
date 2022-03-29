@@ -1,0 +1,304 @@
+body {
+  max-width: 1200px;
+  margin:auto;
+}
+
+header{
+  width: 100%;
+  height: 620px;
+  color: #106b31;
+  position: relative;
+
+}
+
+header::after{
+  content: "";
+  background: url("../img/pebawma-lake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+  padding-top: 20px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+nav {
+  width: 100%;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #6b1810;
+
+}
+
+nav ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+
+nav li {
+  font-family: 'Open Sans' sans-serif;
+  font-weight: bold;
+  font-size: 1.0em;
+  list-style:none;
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+@keyframes name-color {
+  0% {color: #106b31;}
+  50% {color: #6b1810;}
+  100% {color: #106b31;}
+}
+header span{
+  color: #106b31;
+  animation-name: name-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+header img{
+  margin-top: 150px;
+}
+
+.greeting{
+  display: inline;
+}
+
+header p{
+  font-family: 'Open Sans' sans-serif;
+  font-size: 1.5em;
+  width: 75%;
+}
+h1{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.5em;
+  line-height: 25px;
+}
+
+/*About Me Section*/
+#about {
+  width: 100%;
+  background-color: #106b31;
+  text-align: center;
+  color: #ffffff;
+  border-top: 10px solid #6b1810;
+  border-bottom: 10px solid #6b1810;
+}
+
+#about h2{
+  font-size: 2.0em;
+  padding-top: 100px;
+}
+
+#about p{
+  font-family: 'Open Sans' sans-serif;
+  font-size: 1.5em;
+  width: 100%;
+
+
+}
+.photo p{
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.info {
+  margin: auto;
+  width: 80%;
+}
+
+#fern{
+  width: 50%;
+  height: auto;
+  border: 5px solid #6b1810;
+}
+
+#labyrinth{
+  width: 80%;
+  height: auto;
+  margin-bottom: 25px;
+  border: 5px solid #6b1810;
+}
+/**Portfolio Section**/
+#portfolio{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  text-align: center;
+}
+
+#portfolio h2{
+  font-size: 2.0em;
+  padding-top: 100px;
+  margin-bottom: 75px;
+}
+
+
+.whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding-bottom: 100px;
+
+}
+
+.third{
+  flex-basis: 75%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  /*padding-right: 16px;
+  padding-left: 17px;*/
+
+}
+
+#portfolio img{
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+}
+
+#portfolio p{
+  font-family: 'Open Sans' sans-serif;
+  font-size: 1.5em;
+}
+
+
+.title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.description{
+  margin: 5px 0 50px 0;
+}
+
+/**Contact Section**/
+#contact{
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  background-color:#106b31;
+  color: #ffffff;
+  border-top: 10px solid #6b1810;
+}
+
+#contact h2{
+  font-size: 2.0em;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#contact a{
+  color:#ffffff;
+}
+
+.contact-third{
+  display: flex;
+  flex-flow: column wrap-reverse;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.icons{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.contact-title{
+  font-size: 1.7em;
+  font-weight: bold;
+  margin:auto;
+  padding-bottom: 25px;
+
+}
+.contact-info{
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+}
+
+/**Footer Section**/
+footer{
+  width: 100%;
+  padding: 0px;
+  height: auto;
+  text-align: center;
+  background-color:#6b1810;
+  color: #ffffff;
+}
+
+.footer{
+  display: inline;
+  margin-top:0;
+  padding: 5px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 768px){
+    nav{
+      text-align: right;
+    }
+
+    nav li{
+      padding-left: 20px;
+      padding-right: 10px;
+    }
+
+    #about p{
+      width: 50%;
+      margin: auto;
+      padding: 25px;
+    }
+
+    #fern{
+      width: 25%;
+    }
+
+    #labyrinth{
+      width: 50%;
+    }
+    .whole{
+      align-items: baseline;
+    }
+    .third{
+      flex-basis: 50%;
+    }
+
+    .contact-row{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: baseline;
+    }
+
+    .contact-third{
+      margin: 0 35px 0 35px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .whole {
+      align-items: baseline;
+    }
+    .third{
+      flex-basis: 33%;
+    }
+
+}

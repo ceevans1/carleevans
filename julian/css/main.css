@@ -1,0 +1,118 @@
+header{
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1)
+  0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin:0px;
+  margin-bottom:0px;
+  padding-bottom:20px;
+  padding-top:20px
+}
+
+.header-text {
+  color:white;
+  margin-top:125px;
+  padding: 0 100px 0 100px;
+  font-size: 1.5em;
+  font-family:Artifika, Arial;
+}
+
+.main-photo{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.top-photo {
+  position:relative;
+  margin:0 auto;
+
+}
+
+.top-photo-text{
+  color:white;
+  font-size: 2.0em;
+  margin: auto;
+}
+
+.biography {
+  padding:20px;
+  background-color:#00d4ff;
+}
+
+.bio{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.bio h2{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.bio h4{
+  font-size: 1.2em;
+  text-align: center;
+}
+.quotations {
+  padding:30px;
+}
+
+.quotations h2{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.container{
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.nut-quote{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#hazelnut-quote{
+  width: 75%;
+}
+#nut-picture{
+  width: 150px;
+}
+
+.cat-pic{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#love-quote{
+  width: 75%;
+}
+.quotations p {
+  padding:30px;
+  font-family:Artifika, Arial;
+}
+
+footer{
+  background-color: #00d4ff;
+}
+
+footer h4{
+  padding-left: 150px;
+  font-size: 1.2em;
+}
+
+footer ul{
+  padding-left: 150px;
+  list-style: none;
+  line-height: 35px;
+}
+
+footer a{
+  color: #090979;
+  font-size: 1.5em;
+  text-decoration: none;
+}
